@@ -211,6 +211,8 @@ bar {
     font pango:Hack Nerd Font 16
     colors {
       background  #282828
+      statusline #fdf6e3
+      separator #fdf6e3
       focused_workspace  #3c3836 #3c3836 #fdf6e3 
       active_workspace #3c3836 #3c3836 #fdf6e3 
 
