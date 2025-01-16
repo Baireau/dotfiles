@@ -3,6 +3,8 @@ icons_format = "{icon}"
 [theme]
 theme = "native"
 [theme.overrides]
+idle_bg = "#282828"
+idle_fg = "#fdf6e3"
 
 [icons]
 icons = "material-nf"

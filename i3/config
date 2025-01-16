@@ -14,7 +14,7 @@ client.unfocused #282828 #282828 #fdf6e3 #282828
 set $mod Mod4
 
 
-exec --no-startup-id feh ~/Pictures/simple.png
+exec --no-startup-id feh --bg-scale ~/Pictures/simple.png
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -212,6 +212,8 @@ bar {
     colors {
       background  #282828
       focused_workspace  #3c3836 #3c3836 #fdf6e3 
+      active_workspace #3c3836 #3c3836 #fdf6e3 
+
     }
 }
 
