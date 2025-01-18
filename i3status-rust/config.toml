@@ -33,7 +33,7 @@ chip = "*-isa-*"
 
 [[block]]
 block = "net"
-format = " $icon {$signal_strength $ssid $ip $speed_down $speed_up|Wired $ip $speed_down $speed_up}"
+format = " $icon {$signal_strength $ssid $ip $speed_down $speed_up|$ip $speed_down $speed_up}"
 
 [[block]]
 block = "disk_space"
